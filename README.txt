@@ -7,6 +7,8 @@ Day06
     02. DrawingContextStack                                         ===> 绘图上下文栈
     03. Quartz2DMemoryManagement                                    ===> Quartz2D内存管理
     04. DrawingText                                                 ===> 绘制文字
+    05. DrawPicture                                                 ===> 绘制图片
+
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

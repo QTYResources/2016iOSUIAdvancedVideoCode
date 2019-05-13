@@ -8,7 +8,7 @@ Day06
     03. Quartz2DMemoryManagement                                    ===> Quartz2D内存管理
     04. DrawingText                                                 ===> 绘制文字
     05. DrawPicture                                                 ===> 绘制图片
-
+    06. SimulateImageView                                           ===> 模拟ImageView
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

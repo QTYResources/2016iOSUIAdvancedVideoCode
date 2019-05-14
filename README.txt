@@ -9,6 +9,7 @@ Day06
     04. DrawingText                                                 ===> 绘制文字
     05. DrawPicture                                                 ===> 绘制图片
     06. SimulateImageView                                           ===> 模拟ImageView
+    07. CropContextRenderingArea                                    ===> 裁剪上下文的渲染区域
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

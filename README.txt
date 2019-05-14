@@ -12,6 +12,7 @@ Day06
     07. CropContextRenderingArea                                    ===> 裁剪上下文的渲染区域
     08. PictureContext                                              ===> 图片类型的图形上下文
     09. StoreImage                                                  ===> 把UIImage保存到沙盒
+    10. OpenGraphicsContextWithOption                               ===> 开启图片上下文WithOption
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

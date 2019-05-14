@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  StoreImage
+//  OpenGraphicsContextWithOption
 //
 //  Created by QinTuanye on 2019/5/14.
 //  Copyright © 2019 QinTuanye. All rights reserved.
@@ -24,8 +24,13 @@
 - (void)touchesBegan:(NSSet<UITouch*>*)touches withEvent:(UIEvent*)event
 {
     
+    NSLog(@"%f", [UIScreen mainScreen].scale);
+    
     // 开启图片类型的图形上下文
-    UIGraphicsBeginImageContext(CGSizeMake(300, 300));
+    //        UIGraphicsBeginImageContext(CGSizeMake(300, 300));
+    UIGraphicsBeginImageContextWithOptions(CGSizeMake(300, 300), NO, 0);
+    
+    //  UIGraphicsBeginImageContext(CGSizeMake(300, 300)); <==>  UIGraphicsBeginImageContextWithOptions(CGSizeMake(300, 300), NO, 1);
     
     // 获取当前的上下文(图片类型)
     CGContextRef ctx = UIGraphicsGetCurrentContext();
@@ -51,11 +56,9 @@
     // 获取文件路径
     NSString* filePath = [docPath stringByAppendingPathComponent:@"xx.png"];
     
-    NSLog(@"filePath: %@", filePath);
-    
     // 1.把 image 对象转化成 nsdata
-    //    NSData* data = UIImagePNGRepresentation(image);
-    NSData* data = UIImageJPEGRepresentation(image, 0);
+    NSData* data = UIImagePNGRepresentation(image);
+    //    NSData* data = UIImageJPEGRepresentation(image, 0);
     //     2.通过 data 的 write to file 写入到沙盒中
     [data writeToFile:filePath atomically:YES];
 }

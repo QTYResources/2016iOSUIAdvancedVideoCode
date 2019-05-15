@@ -13,6 +13,7 @@ Day06
     08. PictureContext                                              ===> 图片类型的图形上下文
     09. StoreImage                                                  ===> 把UIImage保存到沙盒
     10. OpenGraphicsContextWithOption                               ===> 开启图片上下文WithOption
+    11. CropImage                                                   ===> 裁剪图片
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

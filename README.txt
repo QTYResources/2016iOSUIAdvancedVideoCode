@@ -28,3 +28,4 @@ Day07
     04. ControlDoesNotRespond                                       ===> 控件不能响应的情况
     05. GestureUnlock                                               ===> 手势解锁(九宫格+按钮高亮)
     06. GestureUnlock2                                              ===> 手势解锁（连线到按钮）
+    07. GestureUnlock3                                              ===> 手势解锁（连线到手指）

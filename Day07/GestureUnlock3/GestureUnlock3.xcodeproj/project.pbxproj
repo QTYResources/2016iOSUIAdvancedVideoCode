@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600142EF22928D92002FAB20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 600142EE22928D92002FAB20 /* AppDelegate.m */; };
-		600142F222928D92002FAB20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600142F122928D92002FAB20 /* ViewController.m */; };
-		600142F522928D92002FAB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600142F322928D92002FAB20 /* Main.storyboard */; };
-		600142F722928D93002FAB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600142F622928D93002FAB20 /* Assets.xcassets */; };
-		600142FA22928D93002FAB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600142F822928D93002FAB20 /* LaunchScreen.storyboard */; };
-		600142FD22928D93002FAB20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 600142FC22928D93002FAB20 /* main.m */; };
-		6001430522928E27002FAB20 /* HMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001430422928E27002FAB20 /* HMView.m */; };
+		600143142292935D002FAB20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 600143132292935D002FAB20 /* AppDelegate.m */; };
+		600143172292935D002FAB20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600143162292935D002FAB20 /* ViewController.m */; };
+		6001431A2292935D002FAB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600143182292935D002FAB20 /* Main.storyboard */; };
+		6001431C2292935E002FAB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6001431B2292935E002FAB20 /* Assets.xcassets */; };
+		6001431F2292935F002FAB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6001431D2292935E002FAB20 /* LaunchScreen.storyboard */; };
+		600143222292935F002FAB20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 600143212292935F002FAB20 /* main.m */; };
+		6001432A22929396002FAB20 /* HMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6001432922929396002FAB20 /* HMView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		600142EA22928D92002FAB20 /* GestureUnlock2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureUnlock2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		600142ED22928D92002FAB20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		600142EE22928D92002FAB20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		600142F022928D92002FAB20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		600142F122928D92002FAB20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		600142F422928D92002FAB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		600142F622928D93002FAB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		600142F922928D93002FAB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		600142FB22928D93002FAB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		600142FC22928D93002FAB20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6001430322928E27002FAB20 /* HMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMView.h; sourceTree = "<group>"; };
-		6001430422928E27002FAB20 /* HMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMView.m; sourceTree = "<group>"; };
+		6001430F2292935D002FAB20 /* GestureUnlock3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureUnlock3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		600143122292935D002FAB20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		600143132292935D002FAB20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		600143152292935D002FAB20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		600143162292935D002FAB20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		600143192292935D002FAB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6001431B2292935E002FAB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6001431E2292935F002FAB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		600143202292935F002FAB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600143212292935F002FAB20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6001432822929396002FAB20 /* HMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMView.h; sourceTree = "<group>"; };
+		6001432922929396002FAB20 /* HMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		600142E722928D92002FAB20 /* Frameworks */ = {
+		6001430C2292935D002FAB20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,75 +42,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		600142E122928D92002FAB20 = {
+		600143062292935D002FAB20 = {
 			isa = PBXGroup;
 			children = (
-				600142EC22928D92002FAB20 /* GestureUnlock2 */,
-				600142EB22928D92002FAB20 /* Products */,
+				600143112292935D002FAB20 /* GestureUnlock3 */,
+				600143102292935D002FAB20 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		600142EB22928D92002FAB20 /* Products */ = {
+		600143102292935D002FAB20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				600142EA22928D92002FAB20 /* GestureUnlock2.app */,
+				6001430F2292935D002FAB20 /* GestureUnlock3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		600142EC22928D92002FAB20 /* GestureUnlock2 */ = {
+		600143112292935D002FAB20 /* GestureUnlock3 */ = {
 			isa = PBXGroup;
 			children = (
-				600142ED22928D92002FAB20 /* AppDelegate.h */,
-				600142EE22928D92002FAB20 /* AppDelegate.m */,
-				600142F022928D92002FAB20 /* ViewController.h */,
-				600142F122928D92002FAB20 /* ViewController.m */,
-				6001430322928E27002FAB20 /* HMView.h */,
-				6001430422928E27002FAB20 /* HMView.m */,
-				600142F322928D92002FAB20 /* Main.storyboard */,
-				600142F622928D93002FAB20 /* Assets.xcassets */,
-				600142F822928D93002FAB20 /* LaunchScreen.storyboard */,
-				600142FB22928D93002FAB20 /* Info.plist */,
-				600142FC22928D93002FAB20 /* main.m */,
+				600143122292935D002FAB20 /* AppDelegate.h */,
+				600143132292935D002FAB20 /* AppDelegate.m */,
+				600143152292935D002FAB20 /* ViewController.h */,
+				600143162292935D002FAB20 /* ViewController.m */,
+				6001432822929396002FAB20 /* HMView.h */,
+				6001432922929396002FAB20 /* HMView.m */,
+				600143182292935D002FAB20 /* Main.storyboard */,
+				6001431B2292935E002FAB20 /* Assets.xcassets */,
+				6001431D2292935E002FAB20 /* LaunchScreen.storyboard */,
+				600143202292935F002FAB20 /* Info.plist */,
+				600143212292935F002FAB20 /* main.m */,
 			);
-			path = GestureUnlock2;
+			path = GestureUnlock3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		600142E922928D92002FAB20 /* GestureUnlock2 */ = {
+		6001430E2292935D002FAB20 /* GestureUnlock3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6001430022928D93002FAB20 /* Build configuration list for PBXNativeTarget "GestureUnlock2" */;
+			buildConfigurationList = 600143252292935F002FAB20 /* Build configuration list for PBXNativeTarget "GestureUnlock3" */;
 			buildPhases = (
-				600142E622928D92002FAB20 /* Sources */,
-				600142E722928D92002FAB20 /* Frameworks */,
-				600142E822928D92002FAB20 /* Resources */,
+				6001430B2292935D002FAB20 /* Sources */,
+				6001430C2292935D002FAB20 /* Frameworks */,
+				6001430D2292935D002FAB20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GestureUnlock2;
-			productName = GestureUnlock2;
-			productReference = 600142EA22928D92002FAB20 /* GestureUnlock2.app */;
+			name = GestureUnlock3;
+			productName = GestureUnlock3;
+			productReference = 6001430F2292935D002FAB20 /* GestureUnlock3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		600142E222928D92002FAB20 /* Project object */ = {
+		600143072292935D002FAB20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = QinTuanye;
 				TargetAttributes = {
-					600142E922928D92002FAB20 = {
+					6001430E2292935D002FAB20 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 600142E522928D92002FAB20 /* Build configuration list for PBXProject "GestureUnlock2" */;
+			buildConfigurationList = 6001430A2292935D002FAB20 /* Build configuration list for PBXProject "GestureUnlock3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,56 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 600142E122928D92002FAB20;
-			productRefGroup = 600142EB22928D92002FAB20 /* Products */;
+			mainGroup = 600143062292935D002FAB20;
+			productRefGroup = 600143102292935D002FAB20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				600142E922928D92002FAB20 /* GestureUnlock2 */,
+				6001430E2292935D002FAB20 /* GestureUnlock3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		600142E822928D92002FAB20 /* Resources */ = {
+		6001430D2292935D002FAB20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600142FA22928D93002FAB20 /* LaunchScreen.storyboard in Resources */,
-				600142F722928D93002FAB20 /* Assets.xcassets in Resources */,
-				600142F522928D92002FAB20 /* Main.storyboard in Resources */,
+				6001431F2292935F002FAB20 /* LaunchScreen.storyboard in Resources */,
+				6001431C2292935E002FAB20 /* Assets.xcassets in Resources */,
+				6001431A2292935D002FAB20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		600142E622928D92002FAB20 /* Sources */ = {
+		6001430B2292935D002FAB20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600142F222928D92002FAB20 /* ViewController.m in Sources */,
-				600142FD22928D93002FAB20 /* main.m in Sources */,
-				600142EF22928D92002FAB20 /* AppDelegate.m in Sources */,
-				6001430522928E27002FAB20 /* HMView.m in Sources */,
+				600143172292935D002FAB20 /* ViewController.m in Sources */,
+				600143222292935F002FAB20 /* main.m in Sources */,
+				600143142292935D002FAB20 /* AppDelegate.m in Sources */,
+				6001432A22929396002FAB20 /* HMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		600142F322928D92002FAB20 /* Main.storyboard */ = {
+		600143182292935D002FAB20 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				600142F422928D92002FAB20 /* Base */,
+				600143192292935D002FAB20 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		600142F822928D93002FAB20 /* LaunchScreen.storyboard */ = {
+		6001431D2292935E002FAB20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				600142F922928D93002FAB20 /* Base */,
+				6001431E2292935F002FAB20 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		600142FE22928D93002FAB20 /* Debug */ = {
+		600143232292935F002FAB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		600142FF22928D93002FAB20 /* Release */ = {
+		600143242292935F002FAB20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,35 +287,35 @@
 			};
 			name = Release;
 		};
-		6001430122928D93002FAB20 /* Debug */ = {
+		600143262292935F002FAB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GestureUnlock2/Info.plist;
+				INFOPLIST_FILE = GestureUnlock3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qty.GestureUnlock2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qty.GestureUnlock3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6001430222928D93002FAB20 /* Release */ = {
+		600143272292935F002FAB20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GestureUnlock2/Info.plist;
+				INFOPLIST_FILE = GestureUnlock3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qty.GestureUnlock2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qty.GestureUnlock3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		600142E522928D92002FAB20 /* Build configuration list for PBXProject "GestureUnlock2" */ = {
+		6001430A2292935D002FAB20 /* Build configuration list for PBXProject "GestureUnlock3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				600142FE22928D93002FAB20 /* Debug */,
-				600142FF22928D93002FAB20 /* Release */,
+				600143232292935F002FAB20 /* Debug */,
+				600143242292935F002FAB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6001430022928D93002FAB20 /* Build configuration list for PBXNativeTarget "GestureUnlock2" */ = {
+		600143252292935F002FAB20 /* Build configuration list for PBXNativeTarget "GestureUnlock3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6001430122928D93002FAB20 /* Debug */,
-				6001430222928D93002FAB20 /* Release */,
+				600143262292935F002FAB20 /* Debug */,
+				600143272292935F002FAB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 600142E222928D92002FAB20 /* Project object */;
+	rootObject = 600143072292935D002FAB20 /* Project object */;
 }

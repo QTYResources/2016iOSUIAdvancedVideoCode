@@ -32,3 +32,4 @@ Day07
     08. GestureUnlock4                                              ===> 手势解锁（错误的样式）
     09. GestureUnlock5                                              ===> 手势解锁（错误后还能继续编辑的问题）
     10. GestureUnlock6                                              ===> 手势解锁（密码）
+    11. GestureUnlock7                                              ===> 手势解锁（补充）

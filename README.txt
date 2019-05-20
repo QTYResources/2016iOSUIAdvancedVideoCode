@@ -14,6 +14,7 @@ Day06
     09. StoreImage                                                  ===> 把UIImage保存到沙盒
     10. OpenGraphicsContextWithOption                               ===> 开启图片上下文WithOption
     11. CropImage                                                   ===> 裁剪图片
+    12. SaveImageIntoAlbum                                          ===> 把UIImage保存到相册
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

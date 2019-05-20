@@ -18,6 +18,7 @@ Day06
     13. PictureWithRing                                             ===> 带圆环的图片
     14. Watermark                                                   ===> 水印
     15. Screenshots                                                 ===> 屏幕截图
+    16. BitmapContext                                               ===> Bitmap上下文注意事项
     17. UUChartFrame                                                ===> 使用UUChart柱状图框架
 
 Day07 

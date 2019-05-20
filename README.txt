@@ -17,6 +17,7 @@ Day06
     12. SaveImageIntoAlbum                                          ===> 把UIImage保存到相册
     13. PictureWithRing                                             ===> 带圆环的图片
     14. Watermark                                                   ===> 水印
+    15. Screenshots                                                 ===> 屏幕截图
 
 Day07 
     01. TouchEventParameter                                         ===> 触摸事件参数

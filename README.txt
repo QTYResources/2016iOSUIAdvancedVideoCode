@@ -29,3 +29,4 @@ Day07
     05. GestureUnlock                                               ===> 手势解锁(九宫格+按钮高亮)
     06. GestureUnlock2                                              ===> 手势解锁（连线到按钮）
     07. GestureUnlock3                                              ===> 手势解锁（连线到手指）
+    08. GestureUnlock4                                              ===> 手势解锁（错误的样式）

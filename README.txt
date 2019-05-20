@@ -38,4 +38,4 @@ Day07
 
 Day08
     01. GestureRecognition                                          ===> 手势识别
-    
+    02. CALayerBasicAttribute                                       ===> CALayer的基本属性

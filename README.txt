@@ -42,3 +42,4 @@ Day08
     03. ManuallyCreateCALayer                                       ===> 手动创建CALayer
     04. CALayerTransformProperty                                    ===> CALayer的transform属性
     05. ClockPractice1                                              ===> 时钟练习（界面）
+    06. ClockPractice2                                              ===> 时钟练习（锚点）

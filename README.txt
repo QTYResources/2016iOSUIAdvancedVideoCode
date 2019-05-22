@@ -41,3 +41,4 @@ Day08
     02. CALayerBasicAttribute                                       ===> CALayer的基本属性
     03. ManuallyCreateCALayer                                       ===> 手动创建CALayer
     04. CALayerTransformProperty                                    ===> CALayer的transform属性
+    05. ClockPractice1                                              ===> 时钟练习（界面）

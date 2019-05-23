@@ -63,3 +63,4 @@ Day09
     03. CollisionBehavior2                                          ===> 碰撞行为（与另外一个Item发生碰撞）
     04. CollisionBehavior3                                          ===> 碰撞行为（碰撞模式）
     05. CollisionBehavior4                                          ===> 碰撞行为（创建边界）
+    06. CollisionBehavior5                                          ===> 碰撞行为（action）

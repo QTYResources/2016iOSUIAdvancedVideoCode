@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHf-W0-eXB" userLabel="工具栏">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SIp-AJ-o7d"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="清屏" id="UrV-EZ-4EZ"/>
+                                    <barButtonItem title="回退" id="wFI-xQ-pb8"/>
+                                    <barButtonItem title="橡皮" id="Ao6-jo-lMP"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lyU-p3-AtX"/>
+                                    <barButtonItem title="保存" id="ADd-bx-wBz"/>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gE9-rr-G6h" userLabel="菜单栏">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHL-fQ-VH2">
+                                        <rect key="frame" x="16" y="38" width="116.5" height="46"/>
+                                        <color key="backgroundColor" red="0.68235294120000001" green="1" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="qkz-rL-ke8"/>
+                                        </constraints>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqR-SW-lTv">
+                                        <rect key="frame" x="281.5" y="38" width="116.5" height="46"/>
+                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLL-bN-02G">
+                                        <rect key="frame" x="148.5" y="38" width="117" height="46"/>
+                                        <color key="backgroundColor" red="0.4549019608" green="0.63529411759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </button>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mOM-dr-Jwm">
+                                        <rect key="frame" x="14" y="0.0" width="386" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="CZ2-ou-z32"/>
+                                        </constraints>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.78823529410000004" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mOM-dr-Jwm" firstAttribute="top" secondItem="gE9-rr-G6h" secondAttribute="top" id="216-ev-8mb"/>
+                                    <constraint firstAttribute="trailing" secondItem="HqR-SW-lTv" secondAttribute="trailing" constant="16" id="BbS-Cm-uyH"/>
+                                    <constraint firstItem="HqR-SW-lTv" firstAttribute="height" secondItem="WHL-fQ-VH2" secondAttribute="height" id="H45-qc-PsI"/>
+                                    <constraint firstAttribute="bottom" secondItem="HqR-SW-lTv" secondAttribute="bottom" constant="16" id="Ji3-Un-gLg"/>
+                                    <constraint firstAttribute="trailing" secondItem="mOM-dr-Jwm" secondAttribute="trailing" constant="16" id="KwX-yQ-r37"/>
+                                    <constraint firstItem="WHL-fQ-VH2" firstAttribute="leading" secondItem="gE9-rr-G6h" secondAttribute="leading" constant="16" id="LTI-AN-Tmb"/>
+                                    <constraint firstItem="LLL-bN-02G" firstAttribute="height" secondItem="WHL-fQ-VH2" secondAttribute="height" id="bLD-Nc-cEy"/>
+                                    <constraint firstItem="LLL-bN-02G" firstAttribute="leading" secondItem="WHL-fQ-VH2" secondAttribute="trailing" constant="16" id="dsM-gn-5qw"/>
+                                    <constraint firstItem="HqR-SW-lTv" firstAttribute="leading" secondItem="LLL-bN-02G" secondAttribute="trailing" constant="16" id="gHK-Pq-tyE"/>
+                                    <constraint firstItem="mOM-dr-Jwm" firstAttribute="leading" secondItem="gE9-rr-G6h" secondAttribute="leading" constant="16" id="izj-dk-NSQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="WHL-fQ-VH2" secondAttribute="bottom" constant="16" id="tdT-vT-V34"/>
+                                    <constraint firstAttribute="bottom" secondItem="LLL-bN-02G" secondAttribute="bottom" constant="16" id="tpg-k6-es6"/>
+                                    <constraint firstItem="LLL-bN-02G" firstAttribute="width" secondItem="WHL-fQ-VH2" secondAttribute="width" id="uC5-nl-JV5"/>
+                                    <constraint firstItem="HqR-SW-lTv" firstAttribute="width" secondItem="WHL-fQ-VH2" secondAttribute="width" id="uOn-O2-ctG"/>
+                                    <constraint firstAttribute="height" constant="100" id="yxy-iJ-wzN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9CT-7P-oue" userLabel="画板">
+                                <rect key="frame" x="0.0" y="88" width="414" height="674"/>
+                                <color key="backgroundColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VHf-W0-eXB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8aJ-zk-JVn"/>
+                            <constraint firstItem="VHf-W0-eXB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AWV-Me-mZJ"/>
+                            <constraint firstItem="gE9-rr-G6h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="G8z-If-84d"/>
+                            <constraint firstItem="9CT-7P-oue" firstAttribute="bottom" secondItem="gE9-rr-G6h" secondAttribute="top" id="J76-Yb-rgq"/>
+                            <constraint firstItem="gE9-rr-G6h" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JXY-Ni-G8q"/>
+                            <constraint firstItem="9CT-7P-oue" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KJI-yp-7q3"/>
+                            <constraint firstItem="VHf-W0-eXB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ZWj-Ol-JFG"/>
+                            <constraint firstItem="9CT-7P-oue" firstAttribute="top" secondItem="VHf-W0-eXB" secondAttribute="bottom" id="eJm-UE-qen"/>
+                            <constraint firstItem="9CT-7P-oue" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eqe-9T-Y9v"/>
+                            <constraint firstItem="gE9-rr-G6h" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tLX-G2-NY1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gE9-rr-G6h" secondAttribute="bottom" id="wQQ-TT-dZ7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>

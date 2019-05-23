@@ -49,3 +49,4 @@ Day08
     10. KeyFrameAnimation                                           ===> 关键帧动画（CAKeyframeAnimation）
     11. AnimationGroup                                              ===> 组动画（CAAnimationGroup）
     12. TransitionAnimation                                         ===> 转场动画（CATransition）
+    13. SmallDrawingBoard1                                          ===> 小画板（界面）

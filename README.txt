@@ -50,3 +50,4 @@ Day08
     11. AnimationGroup                                              ===> 组动画（CAAnimationGroup）
     12. TransitionAnimation                                         ===> 转场动画（CATransition）
     13. SmallDrawingBoard1                                          ===> 小画板（界面）
+    14. SmallDrawingBoard2                                          ===> 小画板（划线）

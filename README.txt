@@ -66,3 +66,4 @@ Day09
     06. CollisionBehavior5                                          ===> 碰撞行为（action）
     07. CollisionBehavior6                                          ===> 碰撞行为（代理）
     08. SnapAnimation                                               ===> 甩行为动画
+    09. AttachmentAnimation1                                        ===> 附着行为（刚性附着）

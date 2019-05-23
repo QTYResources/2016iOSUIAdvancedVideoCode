@@ -64,3 +64,4 @@ Day09
     04. CollisionBehavior3                                          ===> 碰撞行为（碰撞模式）
     05. CollisionBehavior4                                          ===> 碰撞行为（创建边界）
     06. CollisionBehavior5                                          ===> 碰撞行为（action）
+    07. CollisionBehavior6                                          ===> 碰撞行为（代理）

@@ -48,3 +48,4 @@ Day08
     09. BaseAnimation                                               ===> 基本动画（CABasicAnimation）
     10. KeyFrameAnimation                                           ===> 关键帧动画（CAKeyframeAnimation）
     11. AnimationGroup                                              ===> 组动画（CAAnimationGroup）
+    12. TransitionAnimation                                         ===> 转场动画（CATransition）

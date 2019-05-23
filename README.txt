@@ -61,3 +61,4 @@ Day09
     01. Gravity                                                     ===> 重力
     02. CollisionBehavior1                                          ===> 碰撞行为（与引用View碰撞）
     03. CollisionBehavior2                                          ===> 碰撞行为（与另外一个Item发生碰撞）
+    04. CollisionBehavior3                                          ===> 碰撞行为（碰撞模式）

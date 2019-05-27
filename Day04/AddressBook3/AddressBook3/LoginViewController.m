@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  AddressBook2
+//  AddressBook3
 //
 //  Created by QinTuanye on 2019/5/27.
 //  Copyright © 2019 QinTuanye. All rights reserved.
@@ -92,7 +92,7 @@
     //        [MBProgressHUD showMessage:@"正在登陆"];
     [SVProgressHUD showWithStatus:@"正在登陆" maskType:SVProgressHUDMaskTypeBlack];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         // 隐藏
         //                [MBProgressHUD hideHUD];
@@ -183,3 +183,4 @@
 }
 
 @end
+

@@ -119,9 +119,6 @@
                                 <rect key="frame" x="287" y="311" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="登录"/>
-                                <connections>
-                                    <segue destination="0ZG-fm-RjL" kind="push" identifier="login2contact" id="LNb-dk-jPC"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -154,6 +151,7 @@
                         <outlet property="passwordField" destination="VsV-XB-ECr" id="m6j-ff-WSh"/>
                         <outlet property="remPassword" destination="3N3-zr-ICD" id="r8d-R8-Ex6"/>
                         <outlet property="usernameField" destination="WVJ-5r-Vfy" id="46g-dS-IYR"/>
+                        <segue destination="0ZG-fm-RjL" kind="push" identifier="login2contact" id="qQA-i9-01U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

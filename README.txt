@@ -8,7 +8,8 @@ Day05
     03. PaintingSteps                                               ===> 绘图的步骤
     04. WayOfDrawing                                                ===> 绘图的方式
     05. DrawRect                                                    ===> drawRect方法说明  
-    06. DrawingExercises                                            ===> 绘图的练习                        
+    06. DrawingExercises                                            ===> 绘图的练习      
+    07. DrawingStyle                                                ===> 绘图的样式                  
 
 Day06
     01. MatrixOperation                                             ===> 矩阵操作

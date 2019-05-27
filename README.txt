@@ -7,7 +7,8 @@ Day05
     02. Modal2                                                      ===> Storyboard实现Modal转场动画
     03. PaintingSteps                                               ===> 绘图的步骤
     04. WayOfDrawing                                                ===> 绘图的方式
-    05. DrawRect                                                    ===> drawRect方法说明                          
+    05. DrawRect                                                    ===> drawRect方法说明  
+    06. DrawingExercises                                            ===> 绘图的练习                        
 
 Day06
     01. MatrixOperation                                             ===> 矩阵操作

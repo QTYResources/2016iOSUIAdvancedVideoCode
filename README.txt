@@ -72,3 +72,4 @@ Day09
     12. AttachmentAnimation4                                        ===> 附着行为（刚性附着- item偏移量）
     13. PushAnimation                                               ===> 推行为
     14. DynamicSelfAttribute                                        ===> 动力学元素自身属性
+    15. CaterpillarCase1                                            ===> 毛毛虫案例（拖曳）

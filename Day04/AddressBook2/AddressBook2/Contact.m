@@ -1,0 +1,13 @@
+//
+//  Contact.m
+//  通讯录
+//
+//  Created by Romeo on 15/12/2.
+//  Copyright © 2015年 heima. All rights reserved.
+//
+
+#import "Contact.h"
+
+@implementation Contact
+
+@end

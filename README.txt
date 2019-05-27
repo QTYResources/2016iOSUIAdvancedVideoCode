@@ -10,6 +10,7 @@ Day04
     05. AddressBook2                                                ===> 通讯录（保存开关状态）
     06. ArchiveFile                                                 ===> 归档解档
     07. AddressBook3                                                ===> 通讯录（保存联系人信息）
+    08. PlistSaveString                                             ===> 使用plist保存字符串
 
 Day05
     01. Modal1                                                      ===> 代码实现Modal转场动画

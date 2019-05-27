@@ -76,3 +76,5 @@ Day09
     16. CaterpillarCase2                                            ===> 毛毛虫案例（附着）
     17. CaterpillarCase3                                            ===> 毛毛虫案例（重力）
     18. AngryLittleSquare                                           ===> 愤怒的小方块
+    19. ViewControllerLoadMethod                                    ===> 控制器View的加载方式
+    20. TabBarController                                            ===> 点击水波纹动画效果

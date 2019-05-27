@@ -5,6 +5,7 @@
 Day04
     01. AddressBook                                                 ===> 通讯录（开关处理逻辑）
     02. SandboxPath                                                 ===> 沙盒路径
+    03. PlistStorage                                                ===> plist存储
 
 Day05
     01. Modal1                                                      ===> 代码实现Modal转场动画

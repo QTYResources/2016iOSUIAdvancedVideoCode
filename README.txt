@@ -71,3 +71,4 @@ Day09
     11. AttachmentAnimation3                                        ===> 附着行为（刚性附着-item和item之间）
     12. AttachmentAnimation4                                        ===> 附着行为（刚性附着- item偏移量）
     13. PushAnimation                                               ===> 推行为
+    14. DynamicSelfAttribute                                        ===> 动力学元素自身属性

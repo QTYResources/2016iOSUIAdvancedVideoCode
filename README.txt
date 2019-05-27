@@ -11,6 +11,8 @@ Day04
     06. ArchiveFile                                                 ===> 归档解档
     07. AddressBook3                                                ===> 通讯录（保存联系人信息）
     08. PlistSaveString                                             ===> 使用plist保存字符串
+    09. PathExpansionProblem                                        ===> 路径展开问题
+    10. InitWithCoder                                               ===> initWithCoder方法
 
 Day05
     01. Modal1                                                      ===> 代码实现Modal转场动画

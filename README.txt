@@ -17,6 +17,7 @@ Day04
     12. TabBarViewControllerSimpleUse                               ===> TabBarViewController的简单使用
     13. TabBarViewControllerStructure                               ===> TabBarViewController的结构
     14. QQ                                                          ===> 实现QQ界面框架
+    15. StaticCellStructure                                         ===> 静态单元格的注意事项
 
 Day05
     01. Modal1                                                      ===> 代码实现Modal转场动画

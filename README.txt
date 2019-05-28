@@ -5,6 +5,7 @@
 Day02
     01. ApplicationObjectIntroduction                               ===> 应用程序对象介绍
     02. LoadCustomController                                        ===> 加载自定义控制器
+    03. ControllerViewLazyLoad                                      ===> 控制器的View是懒加载的
 
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）

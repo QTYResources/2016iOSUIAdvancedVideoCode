@@ -9,6 +9,7 @@ Day03
     04. AddressBook4                                                ===> 通讯录（延时hud）
     05. AddressBook5                                                ===> 通讯录（SVProgressHUD）
     06. AddressBook6                                                ===> 通讯录（注销）
+    07. AddressBook7                                                ===> 通讯录（顺传用户名）
 
 Day04
     01. AddressBook                                                 ===> 通讯录（开关处理逻辑）

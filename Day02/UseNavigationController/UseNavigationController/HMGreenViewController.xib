@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMGreenViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44T-Jh-j6F">
+                    <rect key="frame" x="145.5" y="341" width="123" height="30"/>
+                    <state key="normal" title="跳转到蓝色控制器"/>
+                    <connections>
+                        <action selector="go2BlueVc:" destination="-1" eventType="touchUpInside" id="meX-pP-ZOM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKR-oK-r4A">
+                    <rect key="frame" x="145.5" y="433" width="123" height="30"/>
+                    <state key="normal" title="跳转到红色控制器">
+                        <color key="titleColor" red="1" green="0.070588235289999995" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="back2RedVc:" destination="-1" eventType="touchUpInside" id="Gze-0w-BNG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.68076531569999998" green="1" blue="0.88666969979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PKR-oK-r4A" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2zH-rq-287"/>
+                <constraint firstItem="44T-Jh-j6F" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="297" id="DKX-0S-GW4"/>
+                <constraint firstItem="PKR-oK-r4A" firstAttribute="top" secondItem="44T-Jh-j6F" secondAttribute="bottom" constant="62" id="KLH-gu-YRj"/>
+                <constraint firstItem="44T-Jh-j6F" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Sdj-Va-LhM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

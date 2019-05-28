@@ -8,6 +8,7 @@ Day02
     03. ControllerViewLazyLoad                                      ===> 控制器的View是懒加载的
     04. ManualUIWindow                                              ===> 手动创建UIWindow
     05. ThreeLoadCustomController                                   ===> 3种加载自定义控制器的方式
+    06. UseNavigationController                                     ===> 导航控制器的基本使用
 
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）

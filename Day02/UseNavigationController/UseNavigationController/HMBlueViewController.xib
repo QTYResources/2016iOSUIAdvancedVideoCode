@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HMBlueViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmc-NX-ysW">
+                    <rect key="frame" x="145.5" y="258" width="123" height="30"/>
+                    <state key="normal" title="跳转到绿色控制器">
+                        <color key="titleColor" red="0.19215686269999999" green="1" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="back2GreenVc:" destination="-1" eventType="touchUpInside" id="iqk-Bf-jFF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JrI-2g-gdK">
+                    <rect key="frame" x="145.5" y="329" width="123" height="30"/>
+                    <state key="normal" title="跳转到红色控制器">
+                        <color key="titleColor" red="1" green="0.070588235289999995" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="back2RootVc:" destination="-1" eventType="touchUpInside" id="a3q-yV-5N3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIZ-NY-isM">
+                    <rect key="frame" x="145.5" y="403" width="123" height="30"/>
+                    <state key="normal" title="跳转到指定控制器">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="back2Zhiding:" destination="-1" eventType="touchUpInside" id="keZ-Xh-umf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.4549019608" green="0.63529411759999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qmc-NX-ysW" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="214" id="Bk6-WX-qoC"/>
+                <constraint firstItem="uIZ-NY-isM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NMI-8M-QSd"/>
+                <constraint firstItem="uIZ-NY-isM" firstAttribute="top" secondItem="JrI-2g-gdK" secondAttribute="bottom" constant="44" id="Pcb-DV-MP9"/>
+                <constraint firstItem="JrI-2g-gdK" firstAttribute="top" secondItem="qmc-NX-ysW" secondAttribute="bottom" constant="41" id="c3f-jF-RTW"/>
+                <constraint firstItem="qmc-NX-ysW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cmr-cw-tDY"/>
+                <constraint firstItem="JrI-2g-gdK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oBg-FE-PhN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

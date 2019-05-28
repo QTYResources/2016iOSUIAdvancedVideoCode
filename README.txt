@@ -2,6 +2,9 @@
 
 黑马2016iOS教程UI进阶视频配套源代码
 
+Day02
+    01. ApplicationObjectIntroduction                               ===> 应用程序对象介绍
+
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）
     02. AddressBook2                                                ===> 通讯录（登陆逻辑）

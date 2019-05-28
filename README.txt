@@ -4,6 +4,7 @@
 
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）
+    02. AddressBook2                                                ===> 通讯录（登陆逻辑）
 
 Day04
     01. AddressBook                                                 ===> 通讯录（开关处理逻辑）

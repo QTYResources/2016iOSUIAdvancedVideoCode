@@ -1,0 +1,20 @@
+
+#ifdef __OBJC__
+
+// 用来包含一些常用的头文件
+//　常用的宏
+
+#import "HMTool.h"
+//#define CZRandomColor [UIColor cor];
+
+#ifdef DEBUG
+
+#define HMLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HMLog(...)
+
+#endif
+
+#endif

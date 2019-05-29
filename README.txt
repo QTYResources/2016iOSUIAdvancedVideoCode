@@ -10,6 +10,7 @@ Day02
     05. ThreeLoadCustomController                                   ===> 3种加载自定义控制器的方式
     06. UseNavigationController                                     ===> 导航控制器的基本使用
     07. UseNavigationControllerByStoryboard                         ===> 通过storyboard使用导航控制器
+    08. SetNavigationBarContent                                     ===> 导航控制器设置导航栏内容
 
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）

@@ -6,6 +6,7 @@ Day01
     01. Order1                                                      ===> 点餐
     02. Order2                                                      ===> 点餐（显示数据）
     03. Order3                                                      ===> 点餐（随机点餐）
+    04. SelectProvinceAndCity1                                      ===> 省市选择
 
 Day02
     01. ApplicationObjectIntroduction                               ===> 应用程序对象介绍

@@ -8,6 +8,7 @@ Day01
     03. Order3                                                      ===> 点餐（随机点餐）
     04. SelectProvinceAndCity1                                      ===> 省市选择
     05. SelectProvinceAndCity2                                      ===> 省市显示选中省市
+    06. SelectProvinceAndCity3                                      ===> 省市Bug修复
 
 Day02
     01. ApplicationObjectIntroduction                               ===> 应用程序对象介绍

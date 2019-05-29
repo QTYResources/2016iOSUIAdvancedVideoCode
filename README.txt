@@ -12,6 +12,7 @@ Day02
     07. UseNavigationControllerByStoryboard                         ===> 通过storyboard使用导航控制器
     08. SetNavigationBarContent                                     ===> 导航控制器设置导航栏内容
     09. SetNavigationBarContentByStoryboard                         ===> 通过storyboard使用导航控制器设置导航栏内容
+    10. NavigationControllerLifeCycle                               ===> 导航控制器的控制器View的生命周期
 
 Day03
     01. AddressBook1                                                ===> 通讯录（搭建登陆界面）

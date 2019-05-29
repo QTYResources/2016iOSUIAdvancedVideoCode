@@ -9,6 +9,7 @@ Day01
     04. SelectProvinceAndCity1                                      ===> 省市选择
     05. SelectProvinceAndCity2                                      ===> 省市显示选中省市
     06. SelectProvinceAndCity3                                      ===> 省市Bug修复
+    07. FlagSelect                                                  ===> 国旗选择
 
 Day02
     01. ApplicationObjectIntroduction                               ===> 应用程序对象介绍
